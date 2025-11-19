@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "FacultyFlow",
+    "slug": "facultyflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.facultyflow.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.facultyflow.app"
+    },
+    "web": {
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "facultyflow"
+  }
+}
+
